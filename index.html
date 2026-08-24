@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simon Says Game</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Simon Says Game</h1>
+  <h2 id="status">Press any key to start</h2>
+  <div class="hint">
+    Computer choices flashes dark; your choices flash grey
+  </div>
+
+  <div class="board" id="board">
+    <button class="btn red" id="red"><span class="overlay"></span></button>
+    <button class="btn yellow" id="yellow"><span class="overlay"></span></button>
+    <button class="btn green" id="green"><span class="overlay"></span></button>
+    <button class="btn blue" id="blue"><span class="overlay"></span></button>
+  </div>
+  <button id="startBtn">Start Game</button>
+  <script src="script.js"></script>
+</body>
+</html>
